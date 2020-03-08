@@ -5,3 +5,14 @@
 //+src=Deck.cs
 //+src=Cards/Army.cs
 //+src=Penalties/Penalties.cs
+//+src=Cards/Artifact.cs
+//+src=Cards/Beast.cs
+//+src=Cards/Flame.cs
+//+src=Cards/Flood.cs
+//+src=Cards/Land.cs
+//+src=Cards/Leader.cs
+//+src=Cards/Weapon.cs
+//+src=Cards/Weather.cs
+//+src=Cards/Wild.cs
+//+src=Cards/Wizard.cs
+//+src=Hand.cs
