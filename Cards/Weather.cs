@@ -6,8 +6,8 @@ using System.Collections.Generic;
 namespace CSharp_Shell
 {
 
-    public class Weather 
+    public class Weather
     {
-           
+
     }
 }
