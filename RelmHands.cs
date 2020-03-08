@@ -11,6 +11,7 @@ namespace CSharp_Shell
            public void Main()
            {
            	var deck= new Deck();
+               var try  = 1;
            	deck.ForEach(card => Console.WriteLine(card.Name));
            }
            
