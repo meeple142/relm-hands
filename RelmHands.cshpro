@@ -1,0 +1,7 @@
+//+src=Card.cs
+//+src=Action.cs
+//+src=Penalty.cs
+//+src=Bonus.cs
+//+src=Deck.cs
+//+src=Cards/Army.cs
+//+src=Penalties/Penalties.cs
