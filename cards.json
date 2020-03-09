@@ -1,0 +1,17 @@
+[
+    {
+        "Suit": "Weapon",
+        "Cards": [
+            {
+                "Name": "War Dirigible",
+                "Value": 35,
+                "Penalty" : "Blanked unless with at least one Army. Blanked with any Weather."
+            },
+            {
+                "Name": "Magic Wand",
+                "Value": 1,
+                "Bonus" : "+25 with any one Wizard."
+            }
+        ]
+    }
+]
