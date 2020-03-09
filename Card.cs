@@ -29,7 +29,7 @@ namespace CSharp_Shell
 
         public Suits SubSuit;
         public bool IsBlank = false;
-        public bool PenaltyRemoved = false;
+        public bool PenaltyActive = true;
 
         private IAction Action;
         private IPenalty Penalty;
@@ -57,14 +57,14 @@ namespace CSharp_Shell
             Action.RunAction(hand);
         }
 
-        public void RunPenalty(List<Card> hand)
+        public int RunPenalty(List<Card> hand)
         {
-            Penalty.RunPenalty(hand);
+            return Penalty.RunPenalty(hand);
         }
 
-        public void RunBonus(List<Card> hand)
+        public int RunBonus(List<Card> hand)
         {
-            Bonus.RunBonus(hand);
+            return Bonus.RunBonus(hand);
         }
     }
     

@@ -7,15 +7,15 @@ namespace CSharp_Shell
 {
     public interface IBonus
     {
-        public void RunBonus(List<Card> hand);
+        public int RunBonus(List<Card> hand);
     }
 
 
     class NoBonus : IBonus
     {
-        public void RunBonus(List<Card> hand)
+        public int RunBonus(List<Card> hand)
         {
-            return;
+            return 0;
         }
     }
 }
