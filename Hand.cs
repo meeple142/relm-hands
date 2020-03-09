@@ -4,10 +4,34 @@ using System.Linq;
 using System.Collections.Generic;
 
 namespace CSharp_Shell
-{
+{   
+	public class ScoreData
+    {
+	   readonly int BaseValue;
+	   readonly int Penalty;
+	   readonly int Bonus;
+	   readonly int Total;
+	   public ScoreData(int baseValue, int penalty, int bonus)
+	   {
+	   	  BaseValue = baseValue;
+	   	  Penalty = penalty;
+	   	  Bonus = bonus;
+	   	  Total = BaseValue + Penalty + Bonus;
+	   }
+	   public void Print()
+	   {
+	   	   Console.WriteLine("Base:    "+BaseValue.ToString("D3"));
+	   	   Console.WriteLine("Penalty:"+Penalty.ToString("D3"));
+	   	   Console.WriteLine("Bonus:   "+Bonus.ToString("D3"));
+	   	   Console.WriteLine("Total:   "+Total.ToString("D3"));
+	   }
+	   
+    }
 
     public class Hand : List<Card>
     {
+       	ScoreData Score;
+       	
         public Hand() : base()
         {
 
@@ -17,7 +41,7 @@ namespace CSharp_Shell
             this.AddRange(hand);
         }
 
-        public int Score()
+        public void ScoreHand()
         {
 
             int penalty;
@@ -64,7 +88,20 @@ namespace CSharp_Shell
                 });
 
 			
-            return score + bonus + penalty;
+            Score = new ScoreData(score, penalty,bonus);
+        }
+        
+        public void Print()
+        {
+        	//print all the card names
+        	var names =	this.Select(card=>card.Name).ToList();
+        	Console.WriteLine(String.Join(", ",names));
+        	
+        	//make sure its up to date
+        	this.ScoreHand();
+        	
+            Score.Print();
+        	
         }
     }
 }

@@ -7,7 +7,10 @@ namespace CSharp_Shell
         static void Main()
         {
             var deck = new Deck();
-            deck.ForEach(card => Console.WriteLine(card.Name));
+            
+            //deck.ForEach(card => Console.WriteLine(card.Name));
+            Hand hand = new Hand(deck);
+            hand.Print();
         }
     }
 }
