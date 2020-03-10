@@ -16,7 +16,7 @@ namespace CSharp_Shell
 
             var card = new Card(
                 "Nothing",
-              1,
+              100,
               Suits.Land,
               new NoAction(),
               new NoPenalty(),

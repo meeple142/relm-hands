@@ -11,6 +11,8 @@ namespace CSharp_Shell
             //deck.ForEach(card => Console.WriteLine(card.Name));
             Hand hand = new Hand(deck);
             hand.Print();
-        }
+            var score = new ScoreData(hand);
+            score.Print();
+         }
     }
 }

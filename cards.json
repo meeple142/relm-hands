@@ -11,7 +11,33 @@
                 "Name": "Magic Wand",
                 "Value": 1,
                 "Bonus" : "+25 with any one Wizard."
+            },
+            {
+                "Name": "Sword of Keth",
+                "Value": 7,
+                "Bonus" : "+10 with any one Leader OR +40 with both Leader and Shield of Keth"
+            },
+            {
+                "Name": "Elven Long Bow",
+                "Value": 3,
+                "Bonus" : "+30 with Elven Archers, WarLord or BeastMaster"
+            },
+            {
+                "Name": "War Ship",
+                "Value": 23,
+                "Action": "Clears the word Army from penalties from all Floods"
+                "Penalty" : "Blanked unless with at least one flood."
             }
         ]
+    },
+    {
+      "Suit" : "Beast",
+      "Cards":[
+          {
+           "Name" : "",
+           
+          }
+         ]
+
     }
 ]
