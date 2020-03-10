@@ -5,39 +5,418 @@
             {
                 "Name": "War Dirigible",
                 "Value": 35,
-                "Penalty" : "Blanked unless with at least one Army. Blanked with any Weather."
+                "Penalty": "Blanked unless with at least one Army. Blanked with any Weather."
             },
             {
                 "Name": "Magic Wand",
                 "Value": 1,
-                "Bonus" : "+25 with any one Wizard."
+                "Bonus": "+25 with any one Wizard."
             },
             {
                 "Name": "Sword of Keth",
                 "Value": 7,
-                "Bonus" : "+10 with any one Leader OR +40 with both Leader and Shield of Keth"
+                "Bonus": "+10 with any one Leader OR +40 with both Leader and Shield of Keth"
             },
             {
                 "Name": "Elven Long Bow",
                 "Value": 3,
-                "Bonus" : "+30 with Elven Archers, WarLord or BeastMaster"
+                "Bonus": "+30 with Elven Archers, WarLord or BeastMaster"
             },
             {
                 "Name": "War Ship",
                 "Value": 23,
-                "Action": "Clears the word Army from penalties from all Floods"
-                "Penalty" : "Blanked unless with at least one flood."
+                "Action": "Clears the word Army from penalties from all Floods",
+                "Penalty": "Blanked unless with at least one flood."
             }
         ]
     },
     {
-      "Suit" : "Beast",
-      "Cards":[
-          {
-           "Name" : "",
-           
-          }
-         ]
-
+        "Suit": "Beast",
+        "Cards": [
+            {
+                "Name": "Warhorse",
+                "Value": 6,
+                "Bonus": "+14 with any Leader or Wizard"
+            },
+            {
+                "Name": "Hydra",
+                "Value": 12,
+                "Bonus": "+28 with Swamp"
+            },
+            {
+                "Name": "Dragon",
+                "Value": 30,
+                "Penalty": "-40 unless with at least one Wizard",
+            },
+            {
+                "Name": "Basilisk",
+                "Value": 35,
+                "Penalty": "Blanks all Armies, Leaders, and other Beasts"
+            },
+            {
+                "Name": "Unicorn",
+                "Value": 9,
+                "Bonus": "+30 with Princess OR +15 with Empress, Queen or Enchantress"
+            }
+        ]
+    },
+    {
+        "Suit": "Land",
+        "Cards": [
+            {
+                "Name": "Bell Tower",
+                "Value": 8,
+                "Bonus": "+15 with Wizard"
+            },
+            {
+                "Name": "Earth Elemental",
+                "Value": 4,
+                "Bonus": "+15 for each other Land"
+            },
+            {
+                "Name": "Forest",
+                "Value": 7,
+                "Bonus": "+12 for each Beast and Elven Archers"
+            },
+            {
+                "Name": "Mountain",
+                "Value": 9,
+                "Action": "Clears the Penalty on all Floods",
+                "Bonus": "+50 with both Smoke and Wildfire"
+            },
+            {
+                "Name": "Cavern",
+                "Value": 6,
+                "Action": "Clears the Penalty on all Weather",
+                "Bonus": "+25 with Dwarvish Infantry or Dragon"
+            }
+        ]
+    },
+    {
+        "Suit": "Flood",
+        "Cards": [
+            {
+                "Name": "Island",
+                "Value": 14,
+                "Action": "Clears the Penalty on any one Flood or Flame"
+            },
+            {
+                "Name": "Great Flood",
+                "Value": 32,
+                "Penalty": "Blanks all Armies, all Lands except Mountain, all Flames except Lightning"
+            },
+            {
+                "Name": "Fountain of Life",
+                "Value": 1,
+                "Bonus": " Add the base strength of any one Weapon, Flood, Flame, Land, or Weather"
+            },
+            {
+                "Name": "Swamp",
+                "Value": 18,
+                "Penalty": "-3 fore each Army and Flame"
+            },
+            {
+                "Name": "Water Elemental",
+                "Value": 4,
+                "Bonus": "+15 for each other Flood"
+            }
+        ]
+    },
+    {
+        "Suit": "Wizard",
+        "Cards": [
+            {
+                "Name": "Beastmaster",
+                "Value": 9,
+                "Action": "Clears the Penalty on all Beasts",
+                "Bonus": "+9 for each Beast"
+            },
+            {
+                "Name": "Warlock Lord",
+                "Value": 25,
+                "Penalty": "-10 for each Leader and other Wizard"
+            },
+            {
+                "Name": "Collector",
+                "Value": 7,
+                "Bonus": "+10 if three different cards in same suit, +40 if four different cards in the same suit, +100 if five different cards in same suit."
+            },
+            {
+                "Name": "Enchantress",
+                "Value": 5,
+                "Bonus": "+5 fore each Land, Weather, Flood, and Flame."
+            },
+            {
+                "Name": "Necromancer",
+                "Value": 3,
+                "Bonus": "At the end of the fame, you may take one Army, Leader, Wizard, or Beast from the discard pile and add it to your hand as an eighth card."
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
+    },
+    {
+        "Suit": "",
+        "Cards": [
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            },
+            {
+                "Name": "",
+                "Value": 0,
+                "Action": "",
+                "Penalty": "",
+                "Bonus": ""
+            }
+        ]
     }
 ]
