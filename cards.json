@@ -154,21 +154,17 @@
         ]
     },
     {
-        "Suit": "",
+        "Suit": "Artifact",
         "Cards": [
             {
-                "Name": "",
-                "Value": 0,
-                "Action": "",
-                "Penalty": "",
-                "Bonus": ""
+                "Name": "Shield of Keth",
+                "Value": 4,
+                "Bonus": "+15 with one Leader OR +40 with one Leader and Sword of Keth"
             },
             {
-                "Name": "",
-                "Value": 0,
-                "Action": "",
-                "Penalty": "",
-                "Bonus": ""
+                "Name": "Gem of Order",
+                "Value": 5,
+                "Bonus": "Runs, +10,30,60,100,150 for 3,4,5,6,7 card run"
             },
             {
                 "Name": "",
