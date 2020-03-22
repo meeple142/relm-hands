@@ -18,4 +18,19 @@ namespace CSharp_Shell
             return 0;
         }
     }
+    
+    class BonusMaxOr
+    {
+        List<IBonus> Bonuses;
+        
+        public BonusMaxOr(List<IBonus> bonuses)
+        {
+        	Bonuses = bonuses;
+        }
+        
+    	public int RunBonus(List<Card> hand)
+    	{
+    		return Bonuses.Max(bonus => bonus.RunBonus(hand));
+    	}
+    }
 }
