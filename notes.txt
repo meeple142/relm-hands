@@ -1,0 +1,23 @@
+Bonus
+    need OR that takes other Bonuses
+    need +# if have this or that, where x or y are card names or suits
+    need +# for each X where x is either a card name or suits
+    need +# for each OTHER X where x is a suit
+    need +# if all non-blanked cards are the same suit
+    need add the base strength of any one X where X is a Suit 
+    need +# for count of cards that have the same suit
+    need +# for count of cards that make a run with base strength
+    need sum of base strength of all the X where x is a Suit
+    need a +# for each X if have Y where X is a Suit and Y is a card name
+    need +# if no X where X is a Suit
+    "+100 with book of changes, Bell Tower, and any one Wizard"
+    "+40 with Rainstorm and either Blizzard or Great Flood"
+
+
+Ideas
+    Should make card names enums -- 
+        there are only 53 of them and they would all be in one place and I
+    Could make suits and Card names enums --- but really I could make them all the same enum then I could do real compairsons easy! :)
+
+
+
